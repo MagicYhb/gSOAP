@@ -1,0 +1,12 @@
+一、
+    该DOM是通过soap协议，在Linux程序中调用远程的web应用
+
+二、编译方法
+    server：直接make
+    client：make client
+
+三、执行
+    ./addserver 端口号
+    ./addtest server的IP:端口 num1 num2
+
+
