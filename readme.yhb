@@ -1,0 +1,11 @@
+To build  without the default OpenSSL SSL/TLS support, use:
+    $ ./configure --disable-ssl
+    $ make
+    $ make install
+
+To build with GNUTLS SSL/TLS support, use:
+    $ ./configure --enable-gnutls
+    $ make
+    $ make install
+
+
